@@ -1,0 +1,39 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "description": "back-end app for alimx test",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node --unhandled-rejections=strict ./dist/app.js",
+    "debug": "export DEBUG=* && npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alejandro Díaz",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexes08/alimxtest.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexes08/alimxtest/issues"
+  },
+  "homepage": "https://github.com/alexes08/alimxtest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "debug": "^4.3.3",
+    "express": "^4.17.3",
+    "express-winston": "^4.2.0",
+    "mysql": "^2.18.1",
+    "shortid": "^2.2.16",
+    "winston": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/debug": "^4.1.7",
+    "@types/express": "^4.17.13",
+    "@types/shortid": "^0.0.29",
+    "source-map-support": "^0.5.21",
+    "tslint": "^6.1.3",
+    "typescript": "^4.5.5"
+  }
+}
